@@ -2,7 +2,7 @@ class Fan:
     rpm=100
     def __init__(self,a,b):
         self.dial=a
-        self.state=False
+        self.state=False #principle of minimalistic design &other important stuf
 
         self._name=b
     def up(self,x):
@@ -24,14 +24,14 @@ class Fan:
 
 
 print("HAVELLS")
-Havells=Fan(1,'Havells')
+Havells=Fan(1,'Havells'git )
 Havells._name='Usha'
 print(Havells.name)
 Havells.up(3)
 Havells.down(5)
 Havells.Turn_off()
-Havells.Turn_on(2)
-
+Havells.Turn_on(3)
+#for commit purposes
 # print("USHA")
 # usha =Fan(3,'USHA')
 # usha.up()
